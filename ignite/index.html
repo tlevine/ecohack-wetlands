@@ -113,7 +113,12 @@
 </section>
 
 <section class="slide">
-    <h2>Data summaries: parish</h2>
+    <h2>Data summaries: Dates</h2>
+    <img src="images/public_notice_date.png" alt="Scatterplot showing how many permits were submitted on each of 16 days over the past three months"> 
+</section>
+
+<section class="slide">
+    <h2>Data summaries: Parishes</h2>
     <img src="images/parish.png" alt="Bar plot showing how many permits were submitted for each parish, for an average of about four per parish"> 
 </section>
 
@@ -121,20 +126,16 @@
     <h2>Data summaries: Phrases</h2>
     <p>How many reference law?</p>
 <pre>
-Section 10   Section.404   
+Section 10   Section 404   
 Yes: 73      Yes: 74         
 No:  28      No:  27         
 </pre>
     <p>How many reference things?</p>
 <pre>
 Drill      Road       Mitigation Bank
-No:  98    No:  76    No:  84         
 Yes:  3    Yes: 25    Yes: 17         
+No:  98    No:  76    No:  84         
 </pre>
-</section>
-
-<section class="slide">
-    <h2>Data summaries: </h2>
 </section>
 
 <section class="slide">
@@ -270,8 +271,17 @@ piwikTracker.enableLinkTracking();
 
 <!-- Initialize the deck. You can put this in an external file if desired. -->
 <script>
+    // Auto-advance slides every 20 seconds
+    function ignite(){
+        setTimeout(function(){
+            $('.deck-next-link').click();
+            ignite();
+        }, 20000)
+    }
+
 	$(function() {
 		$.deck('.slide');
+        ignite();
 	});
 </script>
 </body>

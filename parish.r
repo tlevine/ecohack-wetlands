@@ -5,7 +5,7 @@ pdf('parish.pdf', width=35, height=10)
 plot(
   w$Parish,
   main = 'Permit applications by parish',
-  ylab = 'Parish',
-  xlab = 'Number of permit applications'
+  xlab = 'Parish',
+  ylab = 'Number of permit applications'
 )
 dev.off()

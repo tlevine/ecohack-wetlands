@@ -14,6 +14,7 @@ with Scott, but do consider other things too.
 * Present the data otherwise. We have the full images and text of these
     documents, and I've already pulled out information relating to laws, dates
     and people.
+* Migrate data from an old version (See below.)
 
 ## Dataset files
 

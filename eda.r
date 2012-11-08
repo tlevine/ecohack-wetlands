@@ -57,7 +57,7 @@ plot(
   xlim = as.Date(c('2012-07-01', '2012-10-01')),
   main = 'When were these notices posted?',
   ylab = 'Cumulative number of public notices',
-  sub = 'Point area is the number posted that day.'
+  sub = 'Point area is the number posted that day.',
   axes = F,
   bg = 1,
   col = 0,

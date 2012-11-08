@@ -39,3 +39,5 @@ The `v1` version was running for a few months before I started this `v2`
 version, and I haven't moved the data over. The storage format is
 [documented](https://github.com/tlevine/wetlands/tree/master/v1), and
 some of the files are [here](http://chainsaw.thomaslevine.com/wetlands/).
+
+Migrating these data to the new `v2` filesystem could be a nice quick project.
